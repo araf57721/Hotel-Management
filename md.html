@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dashboard-body">
+
+    <aside class="sidebar">
+        <h2>Hostel Manager</h2>
+
+        <nav>
+            <a href="manager-dashboard.html" class="active">Dashboard</a>
+            <a href="#students">Students</a>
+            <a href="#rooms">Rooms</a>
+            <a href="#payments">Payments</a>
+        </nav>
+
+        <a href="index.html" class="logout">Logout</a>
+    </aside>
+
+    <main class="dashboard-main">
+
+        <header class="dashboard-header">
+            <div>
+                <h1>Manager Dashboard</h1>
+                <p>Welcome to your hostel management panel.</p>
+            </div>
+        </header>
+
+        <section class="summary-cards">
+
+            <div class="summary-card">
+                <h3>Student Management</h3>
+                <p>Manage student records.</p>
+                <a href="#students">View Details</a>
+            </div>
+
+            <div class="summary-card">
+                <h3>Room Management</h3>
+                <p>Manage rooms and availability.</p>
+                <a href="#rooms">View Details</a>
+            </div>
+
+            <div class="summary-card">
+                <h3>Payment Management</h3>
+                <p>Manage fees and outstanding dues.</p>
+                <a href="#payments">View Details</a>
+            </div>
+
+        </section>
+
+        <section class="management-section" id="students">
+            <h2>Student Management</h2>
+            <p>Add, view, update and delete student records.</p>
+
+            <div class="action-links">
+                <a href="#students">Add Student</a>
+                <a href="#students">View Students</a>
+            </div>
+        </section>
+
+        <section class="management-section" id="rooms">
+            <h2>Room Management</h2>
+            <p>Manage room numbers, bed capacity and availability.</p>
+
+            <div class="action-links">
+                <a href="#rooms">Manage Rooms</a>
+                <a href="#rooms">Room Assignments</a>
+            </div>
+        </section>
+
+        <section class="management-section" id="payments">
+            <h2>Payment Management</h2>
+            <p>Record hostel fees, payments and outstanding dues.</p>
+
+            <div class="action-links">
+                <a href="#payments">Record Payment</a>
+                <a href="#payments">View Payments</a>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>
